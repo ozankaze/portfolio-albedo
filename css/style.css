@@ -1,29 +1,58 @@
-.row .background-bg {
+header .row .background-bg {
   background-repeat: no-repeat;
+  background-position: 0px -40px;
   background-size: cover;
   height: 620px;
   width: 100%; }
 
 body {
   background-color: lightblue;
-  color: red;
+  color: #FFFFFF !important;
   /*  content-font
       font-family: $font-cambay;
       font-family: $font-coustard;
   */ }
 
-.row .background-bg {
-  background-image: url(assets/bg-header.jpg);
-  opacity: 0.9; }
-
-.logo img {
-  width: 118px; }
-
-#navbar {
+header .row .background-bg {
+  background-image: url(assets/bg-header.jpg); }
+header .navbarr li {
+  padding: 10px 15px; }
+header .active {
+  color: #8799A3; }
+header .btn-outline-success {
+  background-color: none;
+  padding: 5px 15px;
+  border-color: #ffff00;
+  color: #ffff00;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 2rem; }
+header .btn-outline-success:hover {
+  background-color: #ffff00;
+  color: #ffffff;
+  font-weight: 700; }
+header .container .centerr {
   margin-top: 50px; }
-
-.button-nav {
+header .container .logo img {
+  width: 125px; }
+header .container .nav-link {
+  color: #FFFFFF !important; }
+header .container .btn-dark {
   border-radius: 20px;
   padding: 10px 20px; }
+header .container .banner .bg-header-h4 {
+  font-family: "Leckerli One", cursive !important; }
+header .container .banner .bg-header-h1 span {
+  color: #0081FF; }
+header .container .banner .bg-header-h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900; }
+header .container .banner p {
+  font-family: "Cambay", sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  color: #636363; }
+header .container .banner .bg-header-headling {
+  color: #FFFFFF; }
 
 /*# sourceMappingURL=style.css.map */

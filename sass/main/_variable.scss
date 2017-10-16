@@ -1,12 +1,19 @@
 $color-blue: lightblue;
+$color-default : #FFFFFF;
 $color-red  : red ;
+// font Content
 $font-cambay: 'Cambay',sans-serif;
 $font-coustard: 'Coustard',serif;
+// font Heading
+$font-leckerli  : 'Leckerli One', cursive;
+$font-montserrat    : 'Montserrat', sans-serif;
+
 
 
 
 %background-bg {
     background-repeat: no-repeat;
+    background-position: 0px -40px;
     background-size: cover;
     height: 620px;
     width: 100%;
