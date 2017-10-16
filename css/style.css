@@ -1,58 +1,40 @@
-header .row .background-bg {
-  background-repeat: no-repeat;
-  background-position: 0px -40px;
-  background-size: cover;
+header {
+  background-repeat: round;
+  background-position: 115px -15px;
+  background-size: inherit;
   height: 620px;
   width: 100%; }
 
-body {
-  background-color: lightblue;
-  color: #FFFFFF !important;
-  /*  content-font
-      font-family: $font-cambay;
-      font-family: $font-coustard;
-  */ }
-
-header .row .background-bg {
+header {
   background-image: url(assets/bg-header.jpg); }
-header .navbarr li {
-  padding: 10px 15px; }
-header .active {
-  color: #8799A3; }
-header .btn-outline-success {
-  background-color: none;
-  padding: 5px 15px;
-  border-color: #ffff00;
-  color: #ffff00;
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 2rem; }
-header .btn-outline-success:hover {
-  background-color: #ffff00;
-  color: #ffffff;
+
+#nav-top {
+  padding-top: 50px; }
+
+.banner {
+  color: aliceblue;
+  padding-top: 50px; }
+  .banner .banner h4 {
+    font-family: "Leckerli One", cursive; }
+
+nav li {
+  padding: 0px 15px; }
+nav a {
+  color: #FFFFFF;
   font-weight: 700; }
-header .container .centerr {
-  margin-top: 50px; }
-header .container .logo img {
-  width: 125px; }
-header .container .nav-link {
-  color: #FFFFFF !important; }
-header .container .btn-dark {
-  border-radius: 20px;
-  padding: 10px 20px; }
-header .container .banner .bg-header-h4 {
-  font-family: "Leckerli One", cursive !important; }
-header .container .banner .bg-header-h1 span {
-  color: #0081FF; }
-header .container .banner .bg-header-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 900; }
-header .container .banner p {
-  font-family: "Cambay", sans-serif;
-  font-size: 25px;
-  line-height: 25px;
-  color: #636363; }
-header .container .banner .bg-header-headling {
+nav a:hover {
+  color: #8799A3; }
+nav li.active a {
+  color: #8799A3; }
+nav .btn-outline-success {
+  border-color: #FFFF00 !important;
+  color: #FFFF00;
+  font-weight: 700; }
+nav .btn-outline-success:hover {
+  background-color: #FFFF00 !important;
   color: #FFFFFF; }
+
+#header .logo img {
+  width: 140px; }
 
 /*# sourceMappingURL=style.css.map */

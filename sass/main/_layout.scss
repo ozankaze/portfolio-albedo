@@ -1,90 +1,45 @@
-body {
-    background-color: $color-blue;
-    color: $color-default !important;
-    
-/*  content-font
-    font-family: $font-cambay;
-    font-family: $font-coustard;
-*/
-}
 header {
-    .row {
-        .background-bg {
-            background-image: url(assets/bg-header.jpg);
-            @extend %background-bg;
-//            opacity: 0.9;
-        }
+    background-image: url(assets/bg-header.jpg);
+    @extend %background-bg;
+}
+#nav-top {
+    padding-top: 50px;
+}
+.banner {
+    color: aliceblue;
+    padding-top: 50px;
+    .banner h4 {
+        font-family : $font-leckerli;
     }
-    .navbarr li {
-        padding: 10px 15px;
+}
+nav {
+    li {
+        padding: 0px 15px;
     }
-    .opacity {
-        
+    a {
+        color: $color-default;
+        font-weight: 700;
     }
-    
-    .active {
+    a:hover {
         color: #8799A3;
     }
-    
+    li.active a {
+        color: #8799A3;
+    }
     .btn-outline-success {
-        background-color: none;
-        padding: 5px 15px; 
-        border-color: #ffff00;
-        color: #ffff00;
+        border-color: #FFFF00!important;
+        color: #FFFF00;
         font-weight: 700;
-        text-transform: uppercase;
-        border-radius: 2rem;
     }
     .btn-outline-success:hover {
-        background-color: #ffff00;
-        color: #ffffff;
-        font-weight: 700;
+        background-color: #FFFF00!important;
+        color: #FFFFFF ; 
     }
-    
-    .container {
-        .centerr {
-            margin-top: 50px;
-
-        }
-        .logo {
-            img {
-                width: 125px;
-            }
-        }
-        .nav-link {
-            color: $color-default !important;
-        }
-        
-        .btn-dark {
-            border-radius: 20px;
-            padding: 10px 20px;
-        }
-        
-        .banner {
-            
-            .bg-header-h4 {
-                font-family: $font-leckerli !important;
-            }
-            .bg-header-h1 {
-                span {
-                    color: #0081FF;
-                }
-            }
-            .bg-header-h1 {
-                font-family: $font-montserrat;
-                font-weight: 900;
-            }
-            
-            p {
-                font-family: "Cambay", sans-serif;
-                font-size: 25px;
-                line-height: 25px;
-                color: #636363;
-            }
-            .bg-header-headling{
-                color: $color-default;
-            }
+}
+#header {
+    .logo {
+        img {
+            width: 140px;
         }
     }
 }
-
