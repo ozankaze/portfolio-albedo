@@ -1,0 +1,31 @@
+body {
+    background-color: $color-blue;
+    color: $color-red;
+    
+/*  content-font
+    font-family: $font-cambay;
+    font-family: $font-coustard;
+*/
+}
+
+.row {
+    .background-bg {
+        background-image: url(assets/bg-header.jpg);
+        @extend %background-bg;
+        opacity: 0.9;
+    }
+}
+
+.logo {
+    img {
+        width: 118px;
+    }
+}
+
+#navbar {
+    margin-top: 50px;
+}
+.button-nav {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
