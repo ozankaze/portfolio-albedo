@@ -65,3 +65,45 @@ nav {
         }
     }
 }
+#investigationes {
+    padding: 80px 0 30px 0;
+    background-color: #0081FF;
+    
+    h4 {
+        @extend %headling-h4;
+    }
+    p {
+        font-family: $font-montserrat;
+        font-size: 15px;
+        color : $color-default;
+    }
+    .weight-700 {
+        font-weight: $weight-700;
+        font-size: 30px;
+        line-height: 35px;
+
+    }
+    .paddin {
+        @extend %padding-top;
+        font-size: 14px;
+    }
+}
+#icon {
+    padding: 40px 0;
+    background-color: #007af3;
+    font-size: 13px;
+    .media {
+        img {
+            width: 40px;
+        }
+        h5 {
+            color: $color-default;
+            font-weight: 700;
+            font-family: $font-montserrat;
+        }
+        p {
+            color: $color-default;
+            font-family: $font-montserrat;
+        }
+    }
+}

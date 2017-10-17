@@ -1,4 +1,4 @@
-#nav-top {
+#nav-top, #investigationes .paddin {
   padding-top: 50px; }
 
 header {
@@ -8,7 +8,7 @@ header {
   height: 620px;
   width: 100%; }
 
-#banner .banner h4 {
+#banner .banner h4, #investigationes h4 {
   font-family: "Leckerli One", cursive;
   font-size: 25px;
   color: #ffffff;
@@ -65,5 +65,33 @@ nav .btn-outline-success:hover {
 
 #header .logo img {
   width: 140px; }
+
+#investigationes {
+  padding: 80px 0 30px 0;
+  background-color: #0081FF; }
+  #investigationes p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: #FFFFFF; }
+  #investigationes .weight-700 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px; }
+  #investigationes .paddin {
+    font-size: 14px; }
+
+#icon {
+  padding: 40px 0;
+  background-color: #007af3;
+  font-size: 13px; }
+  #icon .media img {
+    width: 40px; }
+  #icon .media h5 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif; }
+  #icon .media p {
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */

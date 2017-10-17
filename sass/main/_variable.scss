@@ -8,6 +8,7 @@ $font-coustard: 'Coustard',serif;
 // font Heading
 $font-leckerli  : 'Leckerli One', cursive;
 $font-montserrat    : 'Montserrat', sans-serif;
+$weight-700     : 700;
 
 // padding 
 %padding-top {
@@ -22,7 +23,9 @@ $font-montserrat    : 'Montserrat', sans-serif;
 %padding-left {
     padding-top: 50px;
 }
-
+%headling-h5 {
+    color: $color-default;
+}
 
 //header
 %background-bg {
