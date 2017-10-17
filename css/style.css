@@ -101,7 +101,8 @@ nav .btn-outline-success:hover {
 .media {
   display: inline; }
   .media li {
-    display: inline; }
+    display: inline;
+    padding: 0 15px; }
 
 .media-content p {
   display: inline-block; }
