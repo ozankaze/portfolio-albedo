@@ -1,6 +1,7 @@
 $color-blue: lightblue;
 $color-default : #FFFFFF;
 $color-red  : red ;
+$color-blue : #0081FF;
 // font Content
 $font-cambay: 'Cambay',sans-serif;
 $font-coustard: 'Coustard',serif;
@@ -8,13 +9,52 @@ $font-coustard: 'Coustard',serif;
 $font-leckerli  : 'Leckerli One', cursive;
 $font-montserrat    : 'Montserrat', sans-serif;
 
+// padding 
+%padding-top {
+    padding-top: 50px;
+}
+%padding-right {
+    padding-top: 50px;
+}
+%padding-bottom {
+    padding-top: 50px;
+}
+%padding-left {
+    padding-top: 50px;
+}
 
 
-
+//header
 %background-bg {
-    background-repeat: round;
-    background-position: 115px -15px;
-    background-size: inherit;
+    background-repeat: initial;
+    background-position: 174px -90px;
+    background-size: cover;
     height: 620px;
     width: 100%;
+}
+
+//banner
+%headling-h4 {
+    font-family : $font-leckerli;
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 30px;
+}
+
+%headling-p {
+    font-family: $font-montserrat;
+    font-size: 21px;
+    color: #636363;
+}
+
+%headling-h1 {
+    font-family: $font-montserrat;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+//button
+%btn-width {
+    border-radius: 50px;
+    padding: 10px 25px;
 }

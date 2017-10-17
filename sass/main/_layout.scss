@@ -1,15 +1,35 @@
 header {
     background-image: url(assets/bg-header.jpg);
     @extend %background-bg;
+    
 }
 #nav-top {
-    padding-top: 50px;
+    @extend %padding-top;
 }
-.banner {
+#banner {
     color: aliceblue;
-    padding-top: 50px;
+    padding-top: 160px;
     .banner h4 {
-        font-family : $font-leckerli;
+        @extend %headling-h4;
+    }
+    .banner p {
+        @extend %headling-p;
+    }
+    .banner h1 {
+        @extend %headling-h1;
+    }
+    .banner .bg-header-headling {
+        font-family: $font-montserrat;
+        font-size: 30px;
+        color: $color-default;
+    }
+    .btn-dark {
+        color: $color-default;
+        font-weight: 700;
+        @extend %btn-width;
+    }
+    span {
+        color: $color-blue;
     }
 }
 nav {
@@ -30,7 +50,9 @@ nav {
         border-color: #FFFF00!important;
         color: #FFFF00;
         font-weight: 700;
-    }
+        text-transform: uppercase;
+        @extend %btn-width;
+        box-shadow: 0px 11px 24px -6px rgba(255,255,0,1);    }
     .btn-outline-success:hover {
         background-color: #FFFF00!important;
         color: #FFFFFF ; 
