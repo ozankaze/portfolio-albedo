@@ -10,7 +10,7 @@ header {
 
 #banner .banner h4, #investigationes h4 {
   font-family: "Leckerli One", cursive;
-  font-size: 25px;
+  font-size: 23px;
   color: #ffffff;
   line-height: 30px; }
 
@@ -21,7 +21,7 @@ header {
 
 #banner .banner h1 {
   font-family: "Montserrat", sans-serif;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 900; }
 
 #banner .btn-dark, nav .btn-outline-success {
