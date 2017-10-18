@@ -10,7 +10,44 @@ $font-leckerli  : 'Leckerli One', cursive;
 $font-montserrat    : 'Montserrat', sans-serif;
 $weight-700     : 700;
 
-// padding 
+
+//header
+%background-bg { //done
+    background-repeat: initial;
+    background-position: 175px -75px;
+    background-size: cover;
+    height: 660px;
+    width: 100%;
+}
+
+//banner
+%headling-h4 { //done
+    font-family: "Leckerli One", cursive;
+    font-size: 23px;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+%headling-p {
+    font-family: $font-montserrat;
+    font-size: 17px;
+    color: #636363;
+            font-weight: 300;
+
+}
+
+%headling-h1 {
+    font-family: $font-montserrat;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+//button
+%btn-width {
+    border-radius: 50px;
+    padding: 10px 25px;
+}
+// padding
 %padding-top {
     padding-top: 50px;
 }
@@ -25,39 +62,4 @@ $weight-700     : 700;
 }
 %headling-h5 {
     color: $color-default;
-}
-
-//header
-%background-bg {
-    background-repeat: initial;
-    background-position: 174px -90px;
-    background-size: cover;
-    height: 620px;
-    width: 100%;
-}
-
-//banner
-%headling-h4 {
-    font-family : $font-leckerli;
-    font-size: 23px;
-    color: #ffffff;
-    line-height: 30px;
-}
-
-%headling-p {
-    font-family: $font-montserrat;
-    font-size: 21px;
-    color: #636363;
-}
-
-%headling-h1 {
-    font-family: $font-montserrat;
-    font-size: 40px;
-    font-weight: 900;
-}
-
-//button
-%btn-width {
-    border-radius: 50px;
-    padding: 10px 25px;
 }
