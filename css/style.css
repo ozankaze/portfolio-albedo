@@ -1,103 +1,92 @@
-header {
+#header {
+  background-image: url(assets/bg-header.jpg);
   background-repeat: initial;
   background-position: 175px -75px;
   background-size: cover;
   height: 660px;
   width: 100%; }
 
-#banner .banner h4, #investigationes h4, #fortofolio h4 {
+#header #banner .banner h4, #investigationes h4, #fortofolio h4 {
   font-family: "Leckerli One", cursive;
-  font-size: 23px;
-  padding-bottom: 10px; }
+  font-size: 30px; }
 
-#banner .banner p {
+#header #banner .btn-dark {
+  color: #FFFFFF;
+  font-weight: 900;
+  background-color: #1F1E1E;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  font-size: 10px;
+  border-radius: 50px; }
+
+#fortofolio .weight-700 {
+  font-weight: 700;
+  font-size: 30px; }
+
+#header #banner .bg-header-text, #investigationes p, #icon .media p {
   font-family: "Montserrat", sans-serif;
   font-size: 17px;
-  color: #636363;
   font-weight: 300; }
 
-#banner .banner h1 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 40px;
-  font-weight: 900; }
-
-#investigationes .paddin {
-  padding-top: 50px; }
-
-.container {
-  max-width: 850px; }
-
-header {
-  background-image: url(assets/bg-header.jpg); }
-  header .header-bg {
-    background-color: rgba(0, 0, 0, 0.6);
-    height: 660px; }
-
-#nav-top {
+#header .header-bg {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 660px; }
+#header #header .logo img {
+  width: 150px; }
+#header #nav-top {
   padding-top: 25px; }
-
-#banner {
-  color: aliceblue;
-  padding-top: 150px; }
-  #banner .banner .bg-header-headling {
-    font-family: "Montserrat", sans-serif;
-    font-size: 27px;
-    color: #FFFFFF; }
-  #banner .btn-dark {
-    color: #FFFFFF;
-    font-weight: 900;
-    background-color: #1F1E1E;
-    cursor: pointer;
-    text-transform: uppercase;
-    padding: 10px 20px;
-    font-size: 10px;
-    border-radius: 50px; }
-  #banner .btn-dark:hover {
-    background-color: darkgrey; }
-  #banner span {
-    color: #0081FF; }
-
-nav li {
+#header nav li {
   font-size: 14px;
-  padding: 0 5px; }
-nav a {
+  padding: 0 15px; }
+#header nav a {
   color: #FFFFFF;
   font-weight: 700; }
-nav a:hover {
+#header nav a:hover {
   color: #8799A3; }
-nav li.active a {
+#header nav li.active a {
   color: #8799A3; }
-nav .btn-outline-success {
+#header nav .btn-outline-success {
   border-radius: 50px;
-  padding: 5px 20px;
+  padding: 10px 30px;
   font-weight: 900;
   border: 2px solid #ffff00;
   color: #ffff00;
   box-shadow: 0 1px 5px #ffff00;
   text-transform: uppercase;
   font-size: 10px; }
-nav .btn-outline-success:hover {
+#header nav .btn-outline-success:hover {
   background-color: #FFFF00 !important;
   border: 2px solid #ffff00;
   color: black;
   text-transform: uppercase; }
-
-#header .logo img {
-  width: 120px; }
+#header #banner {
+  color: aliceblue;
+  padding-top: 150px; }
+  #header #banner .bg-header-text {
+    color: #636363; }
+  #header #banner .banner h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 900; }
+  #header #banner .banner .bg-header-headling {
+    font-family: "Montserrat", sans-serif;
+    font-size: 27px;
+    color: #FFFFFF; }
+  #header #banner .btn-dark:hover {
+    background-color: darkgrey; }
+  #header #banner span {
+    color: #0081FF; }
 
 #investigationes {
   padding: 80px 0 30px 0;
   background-color: #0081FF; }
   #investigationes p {
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
     color: #FFFFFF; }
   #investigationes .weight-700 {
     font-weight: 700;
     font-size: 30px;
     line-height: 35px; }
-  #investigationes .paddin {
-    font-size: 14px; }
 
 #icon {
   padding: 40px 0;
@@ -110,8 +99,7 @@ nav .btn-outline-success:hover {
     font-weight: 700;
     font-family: "Montserrat", sans-serif; }
   #icon .media p {
-    color: #FFFFFF;
-    font-family: "Montserrat", sans-serif; }
+    color: #FFFFFF; }
 
 #icon-baryy {
   padding: 80px 0;
@@ -133,7 +121,7 @@ nav .btn-outline-success:hover {
       color: white; }
 
 #fortofolio {
-  padding: 30px 0; }
+  padding: 80px 0; }
   #fortofolio h4 {
     color: #8799A3; }
   #fortofolio p {
@@ -146,36 +134,26 @@ nav .btn-outline-success:hover {
     background-color: #1CBBB3;
     padding: 5px 30px; }
   #fortofolio .weight-700 {
-    font-weight: 700;
-    font-size: 30px;
     line-height: 35px; }
   #fortofolio .card {
     padding: 0px; }
 
-.card-img-top {
-  width: 100%; }
-
-.image-1 img {
+#gambar .image-1 img {
   width: 100%;
-  height: 400px; }
-
-.image-3 img {
+  height: 300px; }
+#gambar .image-3 img {
   width: 100%;
   height: 250px; }
-
-.image-5 img {
+#gambar .image-5 img {
   width: 100%;
   height: 250px; }
-
-.image-2 img {
+#gambar .image-2 img {
   width: 100%;
-  height: 650px; }
-
-.image-4 img {
+  height: 550px; }
+#gambar .image-4 img {
   width: 100%;
-  height: 400px; }
-
-.image-6 img {
+  height: 300px; }
+#gambar .image-6 img {
   width: 100%;
   height: 250px; }
 
