@@ -5,10 +5,9 @@ header {
   height: 660px;
   width: 100%; }
 
-#banner .banner h4, #investigationes h4 {
+#banner .banner h4, #investigationes h4, #fortofolio h4 {
   font-family: "Leckerli One", cursive;
   font-size: 23px;
-  color: #ffffff;
   padding-bottom: 10px; }
 
 #banner .banner p {
@@ -132,5 +131,52 @@ nav .btn-outline-success:hover {
       font-size: 15px; }
     #icon-baryy .media-content .media-1 .activeq a i {
       color: white; }
+
+#fortofolio {
+  padding: 30px 0; }
+  #fortofolio h4 {
+    color: #8799A3; }
+  #fortofolio p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    color: black; }
+  #fortofolio .btn-primary {
+    margin-left: 40%;
+    margin-top: 30px;
+    background-color: #1CBBB3;
+    padding: 5px 30px; }
+  #fortofolio .weight-700 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px; }
+  #fortofolio .card {
+    padding: 0px; }
+
+.card-img-top {
+  width: 100%; }
+
+.image-1 img {
+  width: 100%;
+  height: 400px; }
+
+.image-3 img {
+  width: 100%;
+  height: 250px; }
+
+.image-5 img {
+  width: 100%;
+  height: 250px; }
+
+.image-2 img {
+  width: 100%;
+  height: 650px; }
+
+.image-4 img {
+  width: 100%;
+  height: 400px; }
+
+.image-6 img {
+  width: 100%;
+  height: 250px; }
 
 /*# sourceMappingURL=style.css.map */
