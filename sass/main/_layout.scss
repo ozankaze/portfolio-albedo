@@ -102,7 +102,9 @@
         font-weight: $weight-700;
         font-size: 30px;
         line-height: 35px;
-
+    }
+    .textt {
+        padding-top: 50px;
     }
 }
 
@@ -129,28 +131,28 @@
 #icon-baryy {
     padding: 80px 0;
     background-color: #0081FF;
-    .media-content {
-        p {
-            display: inline-block;
-            color: $color-default;
-            font-family: $font-cambay;
-            font-size: 15px;
-        }
-        .media-1 {
-            display: inline-block;
-            li {
-                display: inline;
-                padding: 0 10px;
-            }
+    p {
+        @extend %bg-header-text;
+        font-size: 16px;
+        color: $color-default;
+    }
+    .media-1 {
+        display: inline-block;
+        li {
+            display: inline;
+            padding: 0 15px;
             i {
                 color: #3a9dff;
                 font-size: 15px;
             }
-            .activeq {
-                a {
-                    i {
-                        color: white;
-                    }
+            i:hover  {
+                color: $color-default;
+            }
+        }
+        .activeq {
+            a {
+                i {
+                    color: white;
                 }
             }
         }
@@ -158,10 +160,11 @@
 }
 
 #fortofolio {
-    padding: 80px 0;
+    padding: 70px 0;
     h4 {
         @extend %headling-h4;
         color: #8799A3;
+        margin-bottom: 15px;
     }
     p {
         font-family: $font-montserrat;
@@ -170,10 +173,10 @@
         
     }
     .btn-primary {
-        margin-left: 40%;
-        margin-top: 30px;
-        background-color: #1CBBB3;
-        padding: 5px 30px;
+        @extend %button-primary;
+    }
+    .btn-primary:hover {
+        @extend %button-primary-hover;
     }
     .weight-700 {
         @extend %weight-700;
