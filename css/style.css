@@ -1,6 +1,3 @@
-#clients .carousel-inner .text-center {
-  text-align: center; }
-
 #header {
   background-image: url(assets/bg-header.jpg);
   background-repeat: initial;
@@ -9,7 +6,7 @@
   height: 660px;
   width: 100%; }
 
-#header #banner .banner h4, #investigationes h4, #fortofolio h4, #clients .bg-header-h4 {
+#header #banner .banner h4, #investigationes h4, #fortofolio h4 {
   font-family: "Leckerli One", cursive;
   font-size: 30px; }
 
@@ -41,7 +38,7 @@
   border: 1px solid darkgray;
   box-shadow: 0 2px 10px darkgray; }
 
-#fortofolio .weight-700, #clients .weight-700 {
+#fortofolio .weight-700 {
   font-weight: 700;
   font-size: 30px;
   font-family: "Montserrat", sans-serif; }
@@ -180,40 +177,5 @@
 #gambar .image-6 img {
   width: 100%;
   height: 250px; }
-
-#clients {
-  background-image: url(../../css/assets/bg-client.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding: 120px 0px;
-  color: white; }
-  #clients .bg-header-h4 {
-    text-align: center; }
-  #clients .weight-700 {
-    text-align: center; }
-  #clients .img-client {
-    text-align: center; }
-    #clients .img-client img {
-      width: 15%;
-      height: 90px;
-      padding: 0 25px; }
-  #clients .carousel-inner {
-    width: 60%;
-    margin: auto; }
-    #clients .carousel-inner .text-center {
-      font-family: "Coustard", serif; }
-    #clients .carousel-inner .media {
-      width: 40%;
-      margin-left: 30%; }
-      #clients .carousel-inner .media img {
-        width: 45px;
-        height: 45px;
-        border-radius: 26px;
-        object-fit: cover; }
-      #clients .carousel-inner .media .media-body h6 {
-        font-family: "Coustard", serif;
-        color: #FFFF00; }
-      #clients .carousel-inner .media .media-body p {
-        font-family: "Coustard", serif; }
 
 /*# sourceMappingURL=style.css.map */
