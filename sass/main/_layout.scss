@@ -191,26 +191,24 @@
 
 #gambar {
     .image-1 {
+        position: relative;
+        width: 100%;
         img {
             width: 100%;
             height: 300px;
         }
     }
     .image-3 {
+        position: relative;
+        width: 50%;
         img {
             width: 100%;
             height: 250px;
         }
     }
     .image-5 {
-
-        .imagez {
-            opacity: 1;
-            display: block;
-            width: 100%; //            height: auto;
-            //            transition: .5s ease;
-            //            backface-visibility: hidden;
-        }
+        position: relative;
+        width: 50%;
         img {
             width: 100%;
             height: 250px;
@@ -218,18 +216,25 @@
     }
 
     .image-2 {
+        position: relative;
+        width: 100%;
         img {
             width: 100%;
             height: 550px;
+            object-fit: cover;
         }
     }
     .image-4 {
+        width: 100%;
+        position: relative;
         img {
             width: 100%;
             height: 300px;
         }
     }
     .image-6 {
+        width: 100%;
+        position: relative;
         img {
             width: 100%;
             height: 250px;
@@ -242,8 +247,7 @@
         position: relative;
         padding: 80px 0px;
     }
-    background-image: url(assets/bg-client.jpg);
-//    height: 200px;
+    background-image: url(assets/bg-client.jpg); //    height: 200px;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 120px 0px;
@@ -267,7 +271,7 @@
         }
     }
     .carousel-inner {
-//        padding: 80px 0px;
+        //        padding: 80px 0px;
         width: 60%;
         margin: auto;
         .text-center {
@@ -287,10 +291,9 @@
                 object-fit: cover;
             }
             .media-body {
-//                width: 40%;
+                //                width: 40%;
                 h6 {
-                    font-family: $font-coustard;
-//                    font-size: $font-montserrat;
+                    font-family: $font-coustard; //                    font-size: $font-montserrat;
                     color: #FFFF00;
                 }
                 p {
@@ -300,3 +303,54 @@
         }
     }
 }
+
+
+
+
+.img-lg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1; // pantengin
+  transition: .5s ease;
+  background-color: rgba(14, 20, 29, 0.8);
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.image-1:hover .overlay,
+.image-2:hover .overlay,
+.image-3:hover .overlay,
+.image-4:hover .overlay,
+.image-5:hover .overlay,
+.image-6:hover .overlay{
+  opacity: 1;
+}
+
+//.card-text {
+//    a {
+//        img {
+//            width: 10px;
+//            height: 20px;
+//        }
+//    }
+//}
+
