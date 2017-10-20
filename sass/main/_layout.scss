@@ -3,12 +3,12 @@
 //}
 #header {
     @extend %background-bg;
-    
+
     .header-bg {
         background-color: rgba(0, 0, 0, 0.6);
         height: 660px;
     }
-    
+
     #header {
         .logo {
             img {
@@ -16,12 +16,12 @@
             }
         }
     }
-    
+
     #nav-top {
         padding-top: 25px;
     }
-    
-    nav  {
+
+    nav {
         li {
             font-size: 14px;
             padding: 0 15px;
@@ -53,7 +53,7 @@
             text-transform: uppercase;
         }
     }
-    
+
     #banner {
         color: aliceblue;
         padding-top: 150px;
@@ -96,7 +96,7 @@
     }
     p {
         @extend %bg-header-text;
-        color : $color-default;
+        color: $color-default;
     }
     .weight-700 {
         font-weight: $weight-700;
@@ -145,7 +145,7 @@
                 color: #3a9dff;
                 font-size: 15px;
             }
-            i:hover  {
+            i:hover {
                 color: $color-default;
             }
         }
@@ -169,8 +169,8 @@
     p {
         font-family: $font-montserrat;
         font-size: 15px;
-        color : black;
-        
+        color: black;
+
     }
     .btn-primary {
         @extend %button-primary;
@@ -183,11 +183,12 @@
         line-height: 35px;
 
     }
-    
+
     .card {
         padding: 0px;
     }
 }
+
 #gambar {
     .image-1 {
         img {
@@ -202,6 +203,14 @@
         }
     }
     .image-5 {
+
+        .imagez {
+            opacity: 1;
+            display: block;
+            width: 100%; //            height: auto;
+            //            transition: .5s ease;
+            //            backface-visibility: hidden;
+        }
         img {
             width: 100%;
             height: 250px;
@@ -209,9 +218,9 @@
     }
 
     .image-2 {
-        img { 
+        img {
             width: 100%;
-            height: 550px; 
+            height: 550px;
         }
     }
     .image-4 {
@@ -224,6 +233,65 @@
         img {
             width: 100%;
             height: 250px;
+        }
+    }
+}
+
+#clients {
+    background-image: url(../../css/assets/bg-client.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 120px 0px;
+    color: white;
+    .bg-header-h4 {
+        @extend %headling-h4;
+        text-align: center;
+    }
+    .weight-700 {
+        @extend %weight-700;
+        text-align: center;
+
+    }
+    .img-client {
+
+        text-align: center;
+        img {
+            width: 15%;
+            height: 90px;
+            padding: 0 25px;
+        }
+    }
+    .carousel-inner {
+//        padding: 80px 0px;
+        width: 60%;
+        margin: auto; //            text-align: center;
+        .text-center {
+            @extend %text-center;
+            font-family: $font-coustard;
+        }
+        .media {
+            width: 40%;
+            margin-left: 30%; //            position: relative;
+            //            text-align: center;
+            img {
+                //                position: absolute;
+                //                left: 10px;
+                width: 45px;
+                height: 45px;
+                border-radius: 26px;
+                object-fit: cover;
+            }
+            .media-body {
+//                width: 40%; 
+                h6 {
+                    font-family: $font-coustard;
+//                    font-size: $font-montserrat;
+                    color: #FFFF00;
+                }
+                p {
+                    font-family: $font-coustard;
+                }
+            }
         }
     }
 }
