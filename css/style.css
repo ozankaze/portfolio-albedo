@@ -1,4 +1,4 @@
-#clients .carousel-inner .text-center, .blog-2 .text-center {
+#clients .carousel-inner .text-center {
   text-align: center; }
 
 #header {
@@ -10,9 +10,9 @@
   width: 100%; }
 
 #header #banner .banner h4, #investigationes h4, #fortofolio h4, #clients .bg-header-h4, #blog .blog-q .bg-header-h4,
-#blog .blog-w .bg-header-h4 {
+#blog .blog-w .bg-header-h4, #contack .bg-header-h4 {
   font-family: "Leckerli One", cursive;
-  font-size: 30px; }
+  font-size: 25px; }
 
 #header #banner .btn-dark {
   color: #FFFFFF;
@@ -43,26 +43,26 @@
   box-shadow: 0 2px 10px darkgray; }
 
 #fortofolio .weight-700, #clients .weight-700, #blog .blog-q .weight-700,
-#blog .blog-w .weight-700 {
+#blog .blog-w .weight-700, #contack .weight-700 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Montserrat", sans-serif; }
 
 #header #banner .bg-header-text, #investigationes p, #icon .media p, #icon-baryy p, #blog .blog-q .bg-header-text, #blog .blog-w .bg-header-text {
   font-family: "Montserrat", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 300; }
 
 #header .header-bg {
   background-color: rgba(0, 0, 0, 0.6);
   height: 660px; }
-#header #header .logo img {
+#header img {
   width: 150px; }
 #header #nav-top {
   padding-top: 25px; }
 #header nav li {
-  font-size: 14px;
-  padding: 0 15px; }
+  font-size: 12px;
+  padding: 0 10px; }
 #header nav a {
   color: #FFFFFF;
   font-weight: 700; }
@@ -86,12 +86,12 @@
   text-transform: uppercase; }
 #header #banner {
   color: aliceblue;
-  padding-top: 150px; }
+  padding-top: 120px; }
   #header #banner .bg-header-text {
     color: #636363; }
   #header #banner .banner h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 900; }
   #header #banner .banner .bg-header-headling {
     font-family: "Montserrat", sans-serif;
@@ -131,7 +131,7 @@
   padding: 80px 0;
   background-color: #0081FF; }
   #icon-baryy p {
-    font-size: 16px;
+    font-size: 13px;
     color: #FFFFFF; }
   #icon-baryy .media-1 {
     display: inline-block; }
@@ -235,6 +235,12 @@
 
 #blog {
   padding: 80px 0px; }
+  #blog h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 13px; }
+  #blog q {
+    font-family: "Coustard", serif; }
   #blog .blog-q p {
     font-family: "Coustard", serif;
     color: #252525; }
@@ -244,20 +250,44 @@
     background-size: cover;
     padding: 85px 60px;
     color: #ffffff; }
-    #blog .blog-w h5 {
-      font-family: "Coustard", serif; }
-    #blog .blog-w p {
-      font-family: "Coustard", serif; }
+    #blog .blog-w .btn-outline-success {
+      border-radius: 50px;
+      padding: 10px 30px;
+      font-weight: 900;
+      border: 2px solid #ffff00;
+      color: black;
+      /* box-shadow: 0 1px 5px #ffff00; */
+      text-transform: uppercase;
+      font-size: 10px;
+      background-color: #ffff00; }
+    #blog .blog-w .btn-outline-success:hover {
+      background-color: #FFFF00 !important;
+      border: 2px solid #ffff00;
+      color: black;
+      text-transform: uppercase; }
 
-#contack ul {
-  list-style-type: none; }
-#contack li {
-  display: inline-block;
-  padding: 0 10px; }
+#contack {
+  background-image: url(assets/bg-contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #636363; }
+  #contack .header-bg {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 80px 0; }
+  #contack .weight-700 {
+    color: white; }
+  #contack .bg-header-h4 {
+    color: white; }
+  #contack ul {
+    list-style-type: none; }
+  #contack li {
+    display: inline-block;
+    padding: 0 10px; }
 
 .blog-1 {
   padding: 62px 40px;
-  background-color: #0081FF; }
+  background-color: #0081FF;
+  text-align: center; }
 
 .blog-2 {
   padding: 20px 30px;
@@ -265,7 +295,13 @@
   background-color: firebrick;
   background-image: url(assets/blog-2.png);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  font-family: "Montserrat", sans-serif; }
+  .blog-2 h5 {
+    color: grey; }
+  .blog-2 .weight-700 {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif; }
 
 .blog-3 {
   padding: 20px 30px;
@@ -273,41 +309,37 @@
   background-color: salmon;
   background-image: url(assets/blog-3.png);
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: #FFFFFF; }
+  .blog-3 img {
+    width: 30px;
+    height: 30px; }
+  .blog-3 .weight-700 {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif; }
 
 .blog-4 {
   padding: 20px 30px;
   height: 150px;
-  background-color: white; }
+  background-color: white;
+  font-family: "Montserrat", sans-serif; }
 
 .blog-5 {
-  padding: 20px 30px;
+  padding: 50px 30px;
   height: 150px;
-  background-color: #E91E62; }
+  color: #ffffff;
+  background-color: #E91E62;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; }
 
 .paddin {
-  padding: 15px 0; }
+  padding: 30px 0; }
 
 #footer {
   padding: 20px 0;
   background-color: lightblue; }
-
-#contack {
-  padding: 80px 0; }
-  #contack .btn-outline-success {
-    border-radius: 50px;
-    padding: 10px 30px;
-    font-weight: 900;
-    border: 2px solid #ffff00;
-    color: #ffff00;
-    box-shadow: 0 1px 5px #ffff00;
-    text-transform: uppercase;
-    font-size: 10px; }
-  #contack .btn-outline-success:hover {
-    background-color: #FFFF00 !important;
-    border: 2px solid #ffff00;
-    color: black;
-    text-transform: uppercase; }
 
 .img-lg {
   display: block;
