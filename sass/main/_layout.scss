@@ -1,4 +1,4 @@
-//.container {
+//.container { 
 //    max-width: 850px;
 //}
 #header {
@@ -6,7 +6,7 @@
 
     .header-bg {
         background-color: rgba(0, 0, 0, 0.6);
-        height: 660px;
+        height: 720px;
     }
 
     img {
@@ -21,10 +21,12 @@
         li {
             font-size: 17px;
             padding: 0 10px;
+            font-family: $font-montserrat;
+             
         }
         a {
             color: $color-default;
-            font-weight: 700;
+            font-weight: 500;
         }
         a:hover {
             color: #8799A3;
@@ -62,7 +64,7 @@
         }
         .banner h1 {
             font-family: $font-montserrat;
-            font-size: 40px;
+            font-size: 50px;
             font-weight: 900;
         }
         .banner .bg-header-headling {
@@ -83,160 +85,15 @@
     }
 }
 
-#investigationes {
-    padding: 80px 0 30px 0;
-    background-color: #0081FF;
 
-    h4 {
-        @extend %headling-h4;
-    }
-    p {
-        @extend %bg-header-text;
-        color: $color-default;
-    }
-    .weight-700 {
-        font-weight: $weight-700;
-        font-size: 30px;
-        line-height: 35px;
-    }
-    .textt {
-        padding-top: 50px;
-    }
-}
 
-#icon {
-    padding: 40px 0;
-    background-color: #007af3;
-    font-size: 13px;
-    .media {
-        img {
-            width: 40px;
-        }
-        h5 {
-            color: $color-default;
-            font-weight: 700;
-            font-family: $font-montserrat;
-        }
-        p {
-            @extend %bg-header-text;
-            color: $color-default;
-        }
-    }
-}
 
-#icon-baryy {
-    padding: 80px 0;
-    background-color: #0081FF;
-    p {
-        @extend %bg-header-text;
-        font-size: 13px;
-        color: $color-default;
-    }
-    .media-1 {
-        display: inline-block;
-        li {
-            display: inline;
-            padding: 0 15px;
-            i {
-                color: #3a9dff;
-                font-size: 15px;
-            }
-            i:hover {
-                color: $color-default;
-            }
-        }
-        .activeq {
-            a {
-                i {
-                    color: white;
-                }
-            }
-        }
-    }
-}
 
-#fortofolio {
-    padding: 70px 0;
-    h4 {
-        @extend %headling-h4;
-        color: #8799A3;
-        margin-bottom: 15px;
-    }
-    p {
-        font-family: $font-montserrat;
-        font-size: 15px;
-        color: black;
 
-    }
-    .btn-primary {
-        @extend %button-primary;
-    }
-    .btn-primary:hover {
-        @extend %button-primary-hover;
-    }
-    .weight-700 {
-        @extend %weight-700;
-        line-height: 35px;
 
-    }
 
-    .card {
-        padding: 0px;
-    }
-}
 
-#gambar {
-    .image-1 {
-        position: relative;
-        width: 100%;
-        img {
-            width: 100%;
-            height: 300px;
-        }
-    }
-    .image-3 {
-        position: relative;
-        width: 50%;
-        img {
-            width: 100%;
-            height: 250px;
-        }
-    }
-    .image-5 {
-        position: relative;
-        width: 50%;
-        img {
-            width: 100%;
-            height: 250px;
-        }
-    }
 
-    .image-2 {
-        position: relative;
-        width: 100%;
-        img {
-            width: 100%;
-            height: 550px;
-            object-fit: cover;
-        }
-    }
-    .image-4 {
-        width: 100%;
-        position: relative;
-        img {
-            width: 100%;
-            height: 300px;
-        }
-    }
-    .image-6 {
-        width: 100%;
-        position: relative;
-        img {
-            width: 100%;
-            height: 250px;
-        }
-    }
-}
 
 #clients {
     .carousel {
@@ -363,7 +220,6 @@
 //color-1: #007EF9
 //color-1: #007EF9
 //color-1: #007EF9
-
 #contack {
     background-image: url(assets/bg-contact.jpg);
     background-repeat: no-repeat;
@@ -480,49 +336,3 @@
 
 
 
-.img-lg {
-    display: block;
-    width: 100%;
-    height: auto;
-}
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0; // pantengin
-    transition: .5s ease;
-    background-color: rgba(14, 20, 29, 0.8);
-}
-
-.text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
-.image-1:hover .overlay,
-.image-2:hover .overlay,
-.image-3:hover .overlay,
-.image-4:hover .overlay,
-.image-5:hover .overlay,
-.image-6:hover .overlay {
-    opacity: 1;
-}
-
-//.card-text {
-//    a {
-//        img {
-//            width: 10px;
-//            height: 20px;
-//        }
-//    }
-//}

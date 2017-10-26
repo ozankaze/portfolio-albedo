@@ -1,0 +1,30 @@
+#fortofolio {
+    padding: 70px 0;
+    .bg-header-h4 {
+        @extend %headling-h4;
+        color: #8799A3;
+//        margin-bottom: 15px;
+    }
+    .weight-700 {
+        @extend %weight-700;
+        color: black;
+        font-weight: 900;
+        font-size: 30px;
+        line-height: 35px;
+    } 
+    .btn-primary {
+        @extend %button-primary;
+    }
+    .btn-primary:hover {
+        @extend %button-primary-hover;
+    }
+    .weight-700 {
+        @extend %weight-700;
+        line-height: 35px;
+
+    }
+
+    .card {
+        padding: 0px;
+    }
+}

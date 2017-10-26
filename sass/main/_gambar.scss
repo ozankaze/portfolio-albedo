@@ -1,0 +1,96 @@
+#gambar {
+    .image-1 {
+        position: relative;
+        width: 100%;
+        .gambar-1 {
+            width: 100%;
+            height: 300px;
+        }
+    }
+    .image-3 {
+        position: relative;
+        width: 50%;
+        .gambar-3 {
+            width: 100%;
+            height: 250px;
+        }
+    }
+    .image-5 {
+        position: relative;
+        width: 50%;
+        .gambar-5 {
+            width: 100%;
+            height: 250px;
+        }
+    }
+
+    .image-2 {
+        position: relative;
+        width: 100%;
+        .gambar-2 {
+            width: 100%;
+            height: 550px;
+            object-fit: cover;
+        }
+    }
+    .image-4 {
+        width: 100%;
+        position: relative;
+        .gambar-4 {
+            width: 100%;
+            height: 300px;
+        }
+    }
+    .image-6 {
+        width: 100%;
+        position: relative;
+        .gambar-6 {
+            width: 100%;
+            height: 250px;
+        }
+    }
+}
+
+.img-lg {
+    //    display: block;
+    //    width: 100%;
+    //    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1; // pantengin
+    transition: .5s ease;
+    background-color: rgba(14, 20, 29, 0.8);
+}
+
+.gambar-text {
+    margin-top: 15%;
+    text-align: center;
+    top: 10%;
+    color: #8698a2;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.image-1:hover .overlay,
+.image-2:hover .overlay,
+.image-3:hover .overlay,
+.image-4:hover .overlay,
+.image-5:hover .overlay,
+.image-6:hover .overlay {
+    opacity: 1;
+}
+.card-title {
+    font-size: 15px;
+}
+.card-text {
+    font-size: 20px;
+    font-weight: 500;
+}

@@ -1,0 +1,17 @@
+#icon {
+    padding: 40px 0;
+    background-color: #007af3;
+    .media {
+        .text-banner {
+           @extend %text-banner;
+        }
+        img {
+            width: 50px;
+        }
+        h5 {
+            color: $color-default;
+            font-weight: 700;
+            font-family: $font-montserrat;
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.text-banner {
+    @extend %text-banner;
+}
+
+#icon-baryy {
+    padding: 80px 0;
+    background-color: #0081FF;
+    .media-1 {
+        display: inline-block;
+        li {
+            display: inline;
+            padding: 0 15px;
+            i {
+                color: #3a9dff;
+                font-size: 20px;
+            }
+            i:hover {
+                color: $color-default;
+            }
+        }
+        .activeq {
+            a {
+                i {
+                    color: white;
+                }
+            }
+        }
+    }
+}
