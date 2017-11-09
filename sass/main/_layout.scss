@@ -22,7 +22,7 @@
             font-size: 17px;
             padding: 0 10px;
             font-family: $font-montserrat;
-             
+
         }
         a {
             color: $color-default;
@@ -98,7 +98,7 @@
 #clients {
     .carousel {
         position: relative;
-//        padding: 80px 0px;
+        //        padding: 80px 0px;
     }
     background-image: url(assets/bg-client.jpg); //    height: 200px;
     background-size: cover;
@@ -133,7 +133,7 @@
         }
         .media {
             //            margin: 0 30% 0 30%;
-//            margin: 0 200px;
+            //            margin: 0 200px;
             img {
                 width: 45px;
                 height: 45px;
@@ -156,47 +156,7 @@
 
 
 
-//color-1: #007EFA
-//color-2: #636363
-//color-1: #007EF9
-//color-1: #007EF9
-//color-1: #007EF9
-#contack {
-    background-image: url(assets/bg-contact.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #636363;
-    .header-bg {
-        background-color: rgba(0, 0, 0, 0.8);
-        padding: 80px 0;
-    }
-    .weight-700 {
-        @extend %weight-700;
-        color: white;
-    }
-    .bg-header-h4 {
-        @extend %headling-h4;
-        color: white;
-    }
-    ul {
-        list-style-type: none
-    }
-    li {
-        display: inline-block;
-        padding: 0 10px;
-    }
-}
 
-
-
-
-
-
-
-#footer {
-    padding: 20px 0;
-    background-color: lightblue;
-}
 
 #makan {
     padding: 80px 30px;
@@ -209,6 +169,7 @@
     font-size: 15px;
     font-family: "Montserrat", sans-serif;
 }
+
 .bg-header-text {
     font-family: $font-montserrat;
     font-size: 16px;
@@ -221,11 +182,11 @@ h5 {
     font-weight: 700;
 }
 
+a {
+    text-decoration: none;
+}
 
 
-
-
-
-
-
-
+body {
+    font-family: "Montserrat", sans-serif;
+}

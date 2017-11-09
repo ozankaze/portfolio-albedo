@@ -15,7 +15,7 @@
   font-weight: 300;
   color: #fff; }
 
-#header #banner .banner h4, #clients .bg-header-h4, #contack .bg-header-h4, #about-me .bg-header-h4, #fortofolio .bg-header-h4, #blog .blog-q .bg-header-h4 {
+#header #banner .banner h4, #clients .bg-header-h4, #about-me .bg-header-h4, #fortofolio .bg-header-h4, #blog .blog-q .bg-header-h4, #contack .header-bg .left .bg-header-h4 {
   font-family: "Leckerli One", cursive;
   font-size: 30px;
   margin-bottom: 25px; }
@@ -48,7 +48,7 @@
   border: 1px solid darkgray;
   box-shadow: 0 2px 10px darkgray; }
 
-#clients .weight-700, #contack .weight-700, #about-me .weight-700, #fortofolio .weight-700, #blog .blog-q .weight-700 {
+#clients .weight-700, #about-me .weight-700, #fortofolio .weight-700, #blog .blog-q .weight-700 {
   font-weight: 700;
   font-size: 15px;
   font-family: "Montserrat", sans-serif; }
@@ -142,28 +142,6 @@
     #clients .carousel-inner .media .media-body p {
       font-family: "Coustard", serif; }
 
-#contack {
-  background-image: url(assets/bg-contact.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #636363; }
-  #contack .header-bg {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 80px 0; }
-  #contack .weight-700 {
-    color: white; }
-  #contack .bg-header-h4 {
-    color: white; }
-  #contack ul {
-    list-style-type: none; }
-  #contack li {
-    display: inline-block;
-    padding: 0 10px; }
-
-#footer {
-  padding: 20px 0;
-  background-color: lightblue; }
-
 #makan {
   padding: 80px 30px;
   background-color: darkslateblue; }
@@ -182,6 +160,12 @@ h5 {
   font-size: 17px;
   font-family: "Montserrat", sans-serif;
   font-weight: 700; }
+
+a {
+  text-decoration: none; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
 
 #about-me {
   padding: 80px 0 30px 0;
@@ -393,7 +377,7 @@ h5 {
   font-family: "Montserrat", sans-serif;
   font-weight: 500; }
   .blog-5 .bg-header-text {
-    padding-top: 45%;
+    padding-top: 80px;
     text-align: center;
     font-weight: 500; }
 
@@ -410,5 +394,44 @@ h5 {
     font-weight: 700;
     font-family: "Montserrat", sans-serif;
     font-size: 23px; }
+
+#contack {
+  background-image: url(assets/bg-contact.jpg);
+  background-repeat: no-repeat;
+  color: #636363; }
+  #contack .header-bg {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 80px 0; }
+    #contack .header-bg .left .weight-700 {
+      color: white;
+      font-size: 30px; }
+    #contack .header-bg .left span {
+      color: white; }
+    #contack .header-bg .left .link {
+      line-height: 5px;
+      margin-bottom: 100px;
+      padding-top: 8px; }
+    #contack .header-bg .left .bg-header-h4 {
+      color: white; }
+    #contack .header-bg .left ul {
+      list-style-type: none; }
+    #contack .header-bg .left li {
+      display: inline-block;
+      padding: 0 10px; }
+      #contack .header-bg .left li i {
+        color: #636363; }
+      #contack .header-bg .left li i:hover {
+        color: white; }
+    #contack .header-bg .right .weight-700 {
+      color: white;
+      font-size: 30px;
+      padding-top: 58px; }
+
+#footer {
+  background-color: rgba(31, 31, 31, 0.93);
+  height: 100%;
+  width: 100%;
+  padding: 37px 0px;
+  font-size: 13px; }
 
 /*# sourceMappingURL=style.css.map */

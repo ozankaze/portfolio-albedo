@@ -1,0 +1,54 @@
+#contack {
+    background-image: url(assets/bg-contact.jpg);
+    background-repeat: no-repeat;
+//    background-size: cover;
+    color: #636363;
+    .header-bg {
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 80px 0;
+
+        .left {
+            .weight-700 {
+                color: white;
+                font-size: 30px;
+            }
+            span {
+                color: white;
+            }
+            .link {
+                line-height: 5px;
+                margin-bottom: 100px;
+                padding-top: 8px;
+            }
+            .bg-header-h4 {
+                @extend %headling-h4;
+                color: white;
+            }
+
+            ul {
+                list-style-type: none
+            }
+
+            li {
+                display: inline-block;
+                padding: 0 10px;
+
+                i {
+                    color: #636363;
+                }
+
+                i:hover {
+                    color: white;
+                }
+            }
+        }
+
+        .right {
+            .weight-700 {
+                color: white;
+                font-size: 30px;
+                padding-top: 58px;
+            }
+        }
+    }
+}
