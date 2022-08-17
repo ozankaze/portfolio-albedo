@@ -1,29 +1,41 @@
 #contack {
     background-image: url(assets/bg-contact.jpg);
     background-repeat: no-repeat;
-//    background-size: cover;
+    //    background-size: cover;
     color: #636363;
+    // font-size: 100px;
+
     .header-bg {
         background-color: rgba(0, 0, 0, 0.8);
         padding: 80px 0;
 
+        .contact-fsize {
+            font-size: 20px;
+        }
+
         .left {
-            .weight-700 {
+
+            .contact {
+                @extend %headling-h4;
+                color: white;
+                font-size: 60px;
+            }
+
+            .contact-information {
                 color: white;
                 font-size: 30px;
             }
+
             span {
                 color: white;
             }
+
             .link {
                 line-height: 5px;
                 margin-bottom: 100px;
                 padding-top: 8px;
             }
-            .bg-header-h4 {
-                @extend %headling-h4;
-                color: white;
-            }
+
 
             ul {
                 list-style-type: none
@@ -44,11 +56,13 @@
         }
 
         .right {
+
             .weight-700 {
                 color: white;
                 font-size: 30px;
-                padding-top: 58px;
+                padding-top: 95px;
             }
+
         }
     }
 }
